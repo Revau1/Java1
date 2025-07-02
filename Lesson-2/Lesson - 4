@@ -1,0 +1,22 @@
+class employee{
+    int empid;
+    String empname;
+    float empsal;
+
+
+    employee(){
+        empid = 456;
+        empname = "Revant";
+        empsal = 100000f;
+    }
+    
+    void displaydetails(){
+        System.out.println("Emplyee Id: " + empid + " ,Employee Name: " + empname + " ,Employee Salary: " + empsal);
+    }
+}
+public class Main {
+    public static void main(String[] args){
+        employee e =new employee();
+        e.displaydetails();
+    }
+}
